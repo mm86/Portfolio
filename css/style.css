@@ -138,38 +138,10 @@ content: "\2014 \2009";
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
 }
-/* Skills
--------------------------------------------------- */
 
-
-#skills .col-sm-4 {
-    margin-bottom: 20px;
-    text-align: center;
-}
-#skills h1 {
-    text-align: center;
-    margin: 70px 0;
-    font-family: 'Roboto', sans-serif;
-    font-weight: bold;
-}
-#skills h2 {
-    font-weight: normal;
-    font-family: 'Roboto', sans-serif;
-}
-#skills img {
-    border-radius: 20px;
-}
-#skills .row {
-    margin-bottom: 20px;
-}
 /* Three Projects
 -------------------------------------------------- */
 
-
-#projects .col-sm-4 {
-    margin-bottom: 20px;
-    text-align: center;
-}
 #projects h1 {
     text-align: center;
     margin: 70px 0;
@@ -180,9 +152,7 @@ content: "\2014 \2009";
     font-weight: normal;
     font-family: 'Roboto', sans-serif;
 }
-#projects img {
-    border-radius: 20px;
-}
+
 
 
 /* Three Features
