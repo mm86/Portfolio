@@ -1,10 +1,15 @@
 @import url(http://fonts.googleapis.com/css?family=Roboto:300);
 
+html{
+    height:100%;
+}
 
 body {
-    padding-bottom: 40px;
+    height:100%;
+    margin:0;
+    padding:0;
     background-color: #D8D8D8;
-
+    
 }
 /* Navbar
 -------------------------------------------------- */
@@ -34,15 +39,25 @@ body {
 }
 
 .dropdown-menu a{
-color:black !important;
+    color:black !important;
 }
 
 /* Banner and Intro
 -------------------------------------------------- */
+#banner{
 
-#banner img {
-    width: 100%;
+    position:relative;
+    top:0;
+    left:0;
+    height:100%;
+    width:100%;
 }
+#banner img{
+
+    height:100%;
+    width:100%;
+}
+
 #intro {
     position: absolute;
     top: 70px;
