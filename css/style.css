@@ -153,7 +153,21 @@ content: "\2014 \2009";
     font-family: 'Roboto', sans-serif;
 }
 
+#projects img{
+    
+  max-width: 100%;
 
+}
+/* no-gutters Class Rules */
+.row.no-gutters {
+   margin-right: 0;
+   margin-left: 0;
+}
+.row.no-gutters > [class^="col-"],
+.row.no-gutters > [class*=" col-"] {
+   padding-right: 0;
+   padding-left: 0;
+}
 
 /* Three Features
 ------------------------- */
