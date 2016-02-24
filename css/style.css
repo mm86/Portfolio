@@ -170,6 +170,32 @@ content: "\2014 \2009";
    padding-left: 0;
 }
 
+.mask{
+
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(255,140,0, 0.72);
+  color: #fff;
+  visibility: hidden;
+  opacity: 0;
+  text-align:center;
+}
+
+.mask p{
+    font-family: 'Roboto', sans-serif;
+    font-size:30px;
+    margin-top: 30px;
+}
+
+
+.grid-image:hover .mask {
+  visibility: visible;
+  opacity: 1;
+}
+
 /* Three Features
 ------------------------- */
 
