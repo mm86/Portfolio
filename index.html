@@ -32,7 +32,6 @@
                </div>
                <div class="navbar-collapse collapse" id="hidden-nav">
                   <ul class="nav navbar-nav navbar-right">
-                     <li><a href="#home">Home</a></li>
                      <li><a href="#about">About</a></li>
                      <li><a href="#projects">Work</a></li>
                      <li><a href="#team">Contact</a></li>
@@ -41,23 +40,21 @@
             </div>
          </nav>
       </div>
+      
       <!-- Banner
          ================================================== -->
-      <div id="banner">
-         <img class="img-responsive" src="img/buddha.jpg" alt="banner background image">
-      </div>
+
+      <header>
+        <div id="intro">
+            <blockquote class="animated fadeIn">
+            We have more possibilities available in each moment than we realize.
+            <cite>Thich Nhat Hanh</cite>
+            </blockquote>
+            <h2 class="animated fadeIn">I'm Madhu, Welcome to my Portfolio!</h2>
+            <a href="#about" class="btn btn-default animated fadeIn">Learn More</a>
+        </div>
+      </header>
     
-      <!-- Intro
-         ================================================== -->
-      <div id="intro">
-         <blockquote class="animated fadeIn">
-         We have more possibilities available in each moment than we realize.
-         <cite>Thich Nhat Hanh</cite>
-         </blockquote>
-         <h2 class="animated fadeIn">I'm Madhu, Welcome to my Portfolio!</h2>
-         <a href="#about" class="btn btn-default animated fadeIn">Learn More</a>
-      </div>
-	  
       <!-- About Me
          ================================================== -->
       <div class="container">
@@ -163,7 +160,15 @@
       <script src="bootstrap/js/bootstrap.min.js"></script>
       <script src="viewportchecker.js"></script>
       <script type="text/javascript">
-         var offset = 540;
+         jQuery(document).ready(function() {
+         jQuery('#about').addClass("hideme").viewportChecker({
+          classToAdd: 'visible animated fadeIn', 
+          offset: 100    
+         });   
+         });            
+      </script>
+      <script type="text/javascript">
+         var offset = 500;
          jQuery(window).scroll(function() { 
           if(jQuery(window).scrollTop() < offset) {
             jQuery('#hidden-bar').fadeOut(200);
