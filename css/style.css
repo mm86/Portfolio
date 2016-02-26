@@ -113,7 +113,7 @@ blockquote cite {
     display: block;
     margin-top: 5px;
 }
- 
+
 blockquote cite:before {
     content: "\2014 \2009";
 }
@@ -154,7 +154,7 @@ blockquote cite:before {
 }
 
 #projects img{
-    
+
   max-width: 100%;
 
 }
@@ -229,7 +229,7 @@ footer ul li{
 -------------------------------------------------- */
 
 @media (max-width: 768px) {
- 
+
 .features {
     text-align: center;
 }
