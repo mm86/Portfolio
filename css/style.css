@@ -9,12 +9,24 @@ html,
 body {
     height: 100%;
     width: 100%;
+    font-family: "Roboto", sans-serif;
+
 }
 
 body {
     margin: 0;
     padding: 0;
     background-color: #d8d8d8;
+}
+
+p {
+
+    font-size: 2.5vw;
+}
+
+h1 {
+
+    font-size: 3.5vw;
 }
 
 /* Navbar
@@ -46,35 +58,39 @@ body {
 
 /* Banner and Intro
     -------------------------------------------------- */
+
 header {
     display: table;
     position: relative;
     width: 100%;
     height: 100%;
-    background: url(../img/buddha.jpg) no-repeat center center scroll;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
+     background-image: url(../img/buddha.jpg);
+    -moz-background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+    -webkit-background-size: 100% 100%;
+    background-size: 100% 100%;
 }
+
 
 #intro {
     width: 50%;
     z-index: 99;
     color: #fff;
-    margin: 10% 50% 0 0;
+    margin: 8% 0 0 50%;
 }
 
 #intro h2 {
     font-size: 3vw;
     font-family: Georgia,serif;
     line-height: 1.45;
-    margin: 0 0 40px;
+    margin: 40px 0;
     color: #7a7a7a;
     padding: 0 40px;
 }
 
 #intro .btn {
     margin: 0 40px;
+    font-size: 2vw;
 }
 
 .btn-default {
@@ -87,7 +103,7 @@ blockquote {
     font-family: Georgia,serif;
     font-size: 3vw;
     font-style: italic;
-    margin: .25em 0;
+    margin: .20em 0;
     padding: .35em 40px;
     line-height: 1.45;
     position: relative;
@@ -121,17 +137,12 @@ blockquote cite:before {
 #about h1 {
     margin: 40px 0;
     text-align: center;
-    font-family: "Roboto",sans-serif;
-    font-weight: 700;
     color: #916332;
     text-transform: uppercase;
 }
 
 #about p {
-    text-align: center;
     text-align: justify;
-    font-family: "Roboto",sans-serif;
-    font-size: 16px;
 }
 
 /* Three Projects
@@ -139,16 +150,10 @@ blockquote cite:before {
 #projects h1 {
     text-align: center;
     margin: 20px 0 40px;
-    font-family: "Roboto",sans-serif;
-    font-weight: 700;
     color: #916332;
     text-transform: uppercase;
 }
 
-#projects h2 {
-    font-weight: 400;
-    font-family: "Roboto",sans-serif;
-}
 
 #projects img {
     max-width: 100%;
@@ -177,8 +182,6 @@ blockquote cite:before {
 }
 
 .mask p {
-    font-family: "Roboto",sans-serif;
-    font-size: 30px;
     margin: 30px 0 0;
 }
 
@@ -199,8 +202,6 @@ footer {
 
 footer h1 {
     margin: 20px 0 40px;
-    font-family: "Roboto",sans-serif;
-    font-weight: 700;
     color: #916332;
     text-transform: uppercase;
 }
