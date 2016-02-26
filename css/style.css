@@ -1,8 +1,10 @@
-@import url(http://fonts.googleapis.com/css?family=Roboto:300);
-@import url(https://fonts.googleapis.com/css?family=Quando);
+@import  "http://fonts.googleapis.com/css?family=Roboto:300";
+@import  "https://fonts.googleapis.com/css?family=Quando";
 /* TODO: make sure not to use element names in conjuctions with ids and classes
     streamline font property and use shorthand
-*/
+    put 2 line breaks between rules
+    seperate sections with comments
+    */
 html,
 body {
     height: 100%;
@@ -14,9 +16,9 @@ body {
     padding: 0;
     background-color: #d8d8d8;
 }
-/* Navbar
--------------------------------------------------- */
 
+/* Navbar
+    -------------------------------------------------- */
 #hidden-bar {
     width: 100%;
     position: fixed;
@@ -24,34 +26,32 @@ body {
     top: 0;
     z-index: 100;
 }
-.navbar {
-    background: black;
-}
 
+.navbar {
+    background: #000;
+}
 
 .navbar li {
     padding: 10px 0;
 }
-.nav li a {
 
+.nav li a {
     color: #d8d8d8;
-    font-weight: bold;
+    font-weight: 700;
 }
 
-.navbar-default  .navbar-nav li:hover {
+.navbar-default .navbar-nav li:hover {
     background: #ff8c00;
 }
 
-
-
 /* Banner and Intro
--------------------------------------------------- */
+    -------------------------------------------------- */
 header {
     display: table;
     position: relative;
     width: 100%;
     height: 100%;
-    background: url('../img/buddha.jpg') no-repeat center center scroll;
+    background: url(../img/buddha.jpg) no-repeat center center scroll;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -61,21 +61,19 @@ header {
     width: 50%;
     z-index: 99;
     color: #fff;
-    margin:10% 50% 0 0;
+    margin: 10% 50% 0 0;
 }
 
 #intro h2 {
     font-size: 3vw;
-    font-family: Georgia, serif;
+    font-family: Georgia,serif;
     line-height: 1.45;
-    margin: 0 0 40px 0;
+    margin: 0 0 40px;
     color: #7a7a7a;
     padding: 0 40px;
-
 }
 
-#intro .btn{
-
+#intro .btn {
     margin: 0 40px;
 }
 
@@ -86,11 +84,11 @@ header {
 
 blockquote {
     border: 0;
-    font-family: Georgia, serif;
+    font-family: Georgia,serif;
     font-size: 3vw;
     font-style: italic;
-    margin: 0.25em 0;
-    padding: 0.35em 40px;
+    margin: .25em 0;
+    padding: .35em 40px;
     line-height: 1.45;
     position: relative;
     color: #383838;
@@ -108,10 +106,10 @@ blockquote:before {
 }
 
 blockquote cite {
-    color: #999999;
+    color: #999;
     font-size: 3vw;
     display: block;
-    margin: 5px 0 0 0;
+    margin: 5px 0 0;
 }
 
 blockquote cite:before {
@@ -119,100 +117,94 @@ blockquote cite:before {
 }
 
 /* About Me
--------------------------------------------------- */
-
+    -------------------------------------------------- */
 #about h1 {
     margin: 40px 0;
     text-align: center;
-    font-family: 'Roboto', sans-serif;
-    font-weight: bold;
+    font-family: "Roboto",sans-serif;
+    font-weight: 700;
     color: #916332;
     text-transform: uppercase;
 }
+
 #about p {
     text-align: center;
     text-align: justify;
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto",sans-serif;
     font-size: 16px;
 }
 
 /* Three Projects
--------------------------------------------------- */
-
+    -------------------------------------------------- */
 #projects h1 {
     text-align: center;
-    margin: 20px 0 40px 0;
-    font-family: 'Roboto', sans-serif;
-    font-weight: bold;
+    margin: 20px 0 40px;
+    font-family: "Roboto",sans-serif;
+    font-weight: 700;
     color: #916332;
     text-transform: uppercase;
-
 }
+
 #projects h2 {
-    font-weight: normal;
-    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-family: "Roboto",sans-serif;
 }
 
 #projects img {
-
-  max-width: 100%;
-
+    max-width: 100%;
 }
+
 /* no-gutters Class Rules */
 .row.no-gutters {
-   margin: 0;
+    margin: 0;
 }
-.row.no-gutters > [class^="col-"],
-.row.no-gutters > [class*=" col-"] {
-   padding: 0;
+
+.row.no-gutters > [class^="col-"],.row.no-gutters > [class*=" col-"] {
+    padding: 0;
 }
 
 .mask {
-
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  background: rgba(255,140,0, 0.72);
-  color: #fff;
-  visibility: hidden;
-  opacity: 0;
-  text-align: center;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(255,140,0,0.72);
+    color: #fff;
+    visibility: hidden;
+    opacity: 0;
+    text-align: center;
 }
 
 .mask p {
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto",sans-serif;
     font-size: 30px;
-    margin: 30px 0 0 0;
+    margin: 30px 0 0;
 }
-
 
 .grid-image:hover .mask {
-  visibility: visible;
-  opacity: 1;
+    visibility: visible;
+    opacity: 1;
 }
-
 
 .divider {
     margin: 40px 0;
 }
 
-
 /* Footer
--------------------------------------------------- */
+    -------------------------------------------------- */
 footer {
     text-align: center;
-
 }
 
 footer h1 {
-    margin: 20px 0 40px 0;
-    font-family: 'Roboto', sans-serif;
-    font-weight: bold;
+    margin: 20px 0 40px;
+    font-family: "Roboto",sans-serif;
+    font-weight: 700;
     color: #916332;
     text-transform: uppercase;
 }
+
 footer ul {
     list-style-type: none;
     padding: 0;
@@ -220,6 +212,4 @@ footer ul {
 
 footer ul li {
     display: inline;
-
 }
-
