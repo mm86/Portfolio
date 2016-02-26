@@ -1,3 +1,5 @@
+//TODO: check this code for validity
+
 jQuery(document).ready(function() {
   jQuery('#about').addClass("hideme").viewportChecker({
     classToAdd: 'visible animated fadeIn',
