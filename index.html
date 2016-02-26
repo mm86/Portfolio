@@ -158,24 +158,7 @@
 
       <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
       <script src="bootstrap/js/bootstrap.min.js"></script>
-      <script src="viewportchecker.js"></script>
-      <script type="text/javascript">
-         jQuery(document).ready(function() {
-         jQuery('#about').addClass("hideme").viewportChecker({
-          classToAdd: 'visible animated fadeIn',
-          offset: 100
-         });
-         });
-      </script>
-      <script type="text/javascript">
-         var offset = 500;
-         jQuery(window).scroll(function() {
-          if(jQuery(window).scrollTop() < offset) {
-            jQuery('#hidden-bar').fadeOut(200);
-          } else if(jQuery(window).scrollTop() > offset) {
-            jQuery('#hidden-bar').fadeIn(400);
-          }
-         });
-      </script>
+      <script src="js/viewportchecker.js"></script>
+      <script src="js/scripts.js"></script>
    </body>
 </html>
