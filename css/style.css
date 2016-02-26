@@ -3,7 +3,7 @@
 /* TODO: make sure not to use element names in conjuctions with ids and classes
     streamline font property and use shorthand
 */
-html{
+html {
     height: 100%;
     width: 100%;
 }
@@ -33,7 +33,7 @@ body {
 .navbar li {
     padding: 10px 0;
 }
-.nav li a{
+.nav li a {
 
     color: #d8d8d8;
     font-weight: bold;
@@ -47,7 +47,7 @@ body {
 
 /* Banner and Intro
 -------------------------------------------------- */
-header{
+header {
     display: table;
     position: relative;
     width: 100%;
@@ -154,7 +154,7 @@ blockquote cite:before {
     font-family: 'Roboto', sans-serif;
 }
 
-#projects img{
+#projects img {
 
   max-width: 100%;
 
@@ -168,7 +168,7 @@ blockquote cite:before {
    padding: 0;
 }
 
-.mask{
+.mask {
 
   position: absolute;
   top: 0;
@@ -182,7 +182,7 @@ blockquote cite:before {
   text-align: center;
 }
 
-.mask p{
+.mask p {
     font-family: 'Roboto', sans-serif;
     font-size: 30px;
     margin: 30px 0 0 0;
@@ -202,24 +202,24 @@ blockquote cite:before {
 
 /* Footer
 -------------------------------------------------- */
-footer{
+footer {
     text-align: center;
 
 }
 
-footer h1{
+footer h1 {
     margin: 20px 0 40px 0;
     font-family: 'Roboto', sans-serif;
     font-weight: bold;
     color: #916332;
     text-transform: uppercase;
 }
-footer ul{
+footer ul {
     list-style-type: none;
     padding: 0;
 }
 
-footer ul li{
+footer ul li {
     display: inline;
 
 }
