@@ -3,14 +3,13 @@
 /* TODO: make sure not to use element names in conjuctions with ids and classes
     streamline font property and use shorthand
 */
-html {
+html,
+body {
     height: 100%;
     width: 100%;
 }
 
 body {
-    width: 100%;
-    height: 100%;
     margin: 0;
     padding: 0;
     background-color: #d8d8d8;
