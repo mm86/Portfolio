@@ -1,6 +1,8 @@
 @import url(http://fonts.googleapis.com/css?family=Roboto:300);
 @import url(https://fonts.googleapis.com/css?family=Quando);
-
+/* TODO: make sure not to use element names in conjuctions with ids and classes
+    streamline font property and use shorthand
+*/
 html{
     height:100%;
     width:100%;
@@ -59,16 +61,15 @@ header{
 #intro {
     width: 50%;
     z-index: 99;
-    color: white;
-    margin-left:50%;
-    margin-top:10%;
+    color: #fff;
+    margin:10% 50% 0 0;
 }
 
 #intro h2 {
     font-size: 3vw;
     font-family: Georgia, serif;
     line-height: 1.45;
-    margin-bottom: 40px;
+    margin: 0 0 40px 0;
     color: #7a7a7a;
     padding:0 40px;
 
@@ -98,7 +99,7 @@ blockquote {
 
 blockquote:before {
     display: block;
-    padding-left: 10px;
+    padding: 0 10px 0 0;
     content: "\201C";
     font-size: 80px;
     position: absolute;
@@ -111,7 +112,7 @@ blockquote cite {
     color: #999999;
     font-size:3vw;
     display: block;
-    margin-top: 5px;
+    margin: 5px 0 0 0;
 }
 
 blockquote cite:before {
@@ -160,13 +161,11 @@ blockquote cite:before {
 }
 /* no-gutters Class Rules */
 .row.no-gutters {
-   margin-right: 0;
-   margin-left: 0;
+   margin: 0;
 }
 .row.no-gutters > [class^="col-"],
 .row.no-gutters > [class*=" col-"] {
-   padding-right: 0;
-   padding-left: 0;
+   padding: 0;
 }
 
 .mask{
@@ -186,7 +185,7 @@ blockquote cite:before {
 .mask p{
     font-family: 'Roboto', sans-serif;
     font-size:30px;
-    margin-top: 30px;
+    margin: 30px 0 0 0;
 }
 
 
@@ -225,29 +224,3 @@ footer ul li{
 
 }
 
-/* Media Queries
--------------------------------------------------- */
-
-@media (max-width: 768px) {
-
-.features {
-    text-align: center;
-}
-.features ul {
-    margin-bottom: 20px;
-}
-.features img {
-    float: none;
-}
-
-}
-
-@media (max-width: 640px) {
-.features li {
-    font-size: 16px;
-    line-height: 20px;
-}
-
-}
-
-}
