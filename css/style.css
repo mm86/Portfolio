@@ -11,8 +11,7 @@ body {
     height:100%;
     margin:0;
     padding:0;
-    background-color: #D8D8D8;
-    
+    background-color: #d8d8d8;
 }
 /* Navbar
 -------------------------------------------------- */
@@ -34,12 +33,12 @@ body {
 }
 .nav li a{
 
-    color: #D8D8D8;
+    color: #d8d8d8;
     font-weight:bold;
 }
 
 .navbar-default  .navbar-nav li:hover {
-    background: #FF8C00;
+    background: #ff8c00;
 }
 
 
@@ -157,7 +156,6 @@ blockquote cite:before {
 #projects img{
     
   max-width: 100%;
- 
 
 }
 /* no-gutters Class Rules */
